@@ -1,0 +1,94 @@
+:root
+{
+     --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+    --Transparent-white: hsla(0, 0%, 100%, 0.75);
+    --Very-light-gray: hsl(0, 0%, 95%);
+}
+.card
+{
+    padding: 10px;    
+}
+.Sedans{
+    padding: 15px; 
+    background-color: var(--Bright-orange);
+    border-radius: 10px 10px 0 0;
+}
+
+.SUVs{
+    padding: 15px;
+    background-color: var(--Dark-cyan);
+}
+.Luxury{
+    padding: 15px;
+    background-color: var(--Very-dark-cyan);
+    border-radius: 0 0 10px 10px ;
+}
+body
+{
+    font-family: "Lexend Deca";
+    font-size: 15px;
+}
+
+p{
+    font-size: 15px;
+    color: var(--Transparent-white);
+    padding-left: 10px;
+}
+.card button
+{
+    border-radius: 30px 30px 30px 30px;
+    background-color:var(--Very-light-gray);
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out ;
+}
+
+.card img
+{   
+    
+    margin : 10px ;
+}
+
+h3
+{
+    padding-left: 10px;
+    font-family: "Big Shoulders Display";
+    color: var(--Very-light-gray);
+    
+}
+
+.Sedans button {
+    color: var(--Bright-orange);
+}
+
+.SUVs button{
+    color: var(--Dark-cyan);
+}
+
+.Luxury{
+    color: car(--Very-dark-cyan);
+}
+@media (min-width:1000px) {
+    .card{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        margin: auto;
+        min-height: 100hv;
+        max-width: 900px;
+    }
+    .Sedans{
+        border-radius: 10px 0 0 10px;
+        
+    }
+    .Luxury{
+        border-radius: 0 10px 10px 0;
+    }
+    
+
+    
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
